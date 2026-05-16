@@ -1,4 +1,5 @@
 {
+  "installCommand": "echo 'no dependencies'",
   "rewrites": [
     { "source": "/(.*)", "destination": "/api" }
   ]
