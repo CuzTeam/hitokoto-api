@@ -1,0 +1,12 @@
+{
+  "name": "hitokoto-api-vercel",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build:data": "node scripts/fetch-sentences.mjs",
+    "vercel-build": "node scripts/fetch-sentences.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
